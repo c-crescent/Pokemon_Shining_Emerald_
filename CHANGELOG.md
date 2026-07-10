@@ -1,0 +1,32 @@
+## Move Balance
+All of these values are compared to Emerald Legacy, not vanilla.
+1. All moves with 95% accuracy now have 100% accuracy instead.
+2. Thunder, Blizzard, and Fire Blast now have 110 BP, 85% accuracy, and 10% to activate their secondary effects.
+3. Thunderbolt, Ice Beam, and Flamethrower now have 90 BP.
+4. Disable, Glare, and Poison Gas now has 100% accuracy.
+5. Sky Attack how has 110 BP.
+6. Petal Dance, Outrage, and Thrash now has 120 BP.
+7. Vine Whip now has 45 BP.
+8. Fly now has 90 BP.
+9. Zap Cannon, Dynamic Punch now have 120 BP and 50% accuracy.
+10. Rock Smash now has 50 BP.
+11. Jump Kick, Heat Wave now has 95 BP.
+12. High Jump Kick now has 130 BP.
+13. Uproar is now 75 BP.
+14. Fury Cutter now has 40 BP.
+15. Luster Purge and Mist Ball now has 95 BP and 5 PP.
+16. Leech Life now has 70 BP.
+17. Rapid Spin now has 50 BP.
+18. Take Down now has 100 BP.
+19. Bonemerang now has 100% accuracy.
+20. Submission now has 110 BP.
+21. Knock Off now has 60 BP.
+22. Smog now has 30 BP.
+23. Bubble now has 35 BP.
+24. Dragon Claw now has 80 BP.
+25. Dragon Breath now has 65 BP.
+26. Bullet Seed now has 25 BP.
+27. Tackle how has 30 BP.
+28. Comet Punch is now a Fighting type move.
+29. Double Slap now hits twice and has 30 BP.
+30. Shadow Punch now has 75 BP.
