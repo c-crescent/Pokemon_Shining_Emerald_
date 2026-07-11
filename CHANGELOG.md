@@ -30,3 +30,10 @@ All of these values are compared to Emerald Legacy, not vanilla.
 28. Comet Punch is now a Fighting type move.
 29. Double Slap now hits twice and has 30 BP.
 30. Shadow Punch now has 75 BP.
+# Pokemon Changes
+## General
+## Stat Changes
+1. Spinda now has 66 in all base stats.
+2. Nosepass now has 70 base ATK.
+3. Corsola now has 105 base DEF and SPD.
+4. Kecleon now has 90 base SPA and 50 base SPE.
