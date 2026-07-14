@@ -278,7 +278,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SEEDOT"
+                "species": "SPECIES_TREECKO"
               }
             ]
           },
@@ -432,7 +432,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SEEDOT"
+                "species": "SPECIES_TREECKO"
               }
             ]
           },
@@ -584,9 +584,9 @@
                 "species": "SPECIES_WINGULL"
               },
               {
-                "min_level": 4,
-                "max_level": 4,
-                "species": "SPECIES_LOTAD"
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_TORCHIC"
               }
             ]
           },
@@ -738,9 +738,9 @@
                 "species": "SPECIES_WINGULL"
               },
               {
-                "min_level": 4,
-                "max_level": 4,
-                "species": "SPECIES_LOTAD"
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_TORCHIC"
               }
             ]
           },
@@ -892,9 +892,9 @@
                 "species": "SPECIES_WINGULL"
               },
               {
-                "min_level": 6,
-                "max_level": 6,
-                "species": "SPECIES_TAILLOW"
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MUDKIP"
               }
             ]
           },
@@ -1046,9 +1046,9 @@
                 "species": "SPECIES_WINGULL"
               },
               {
-                "min_level": 6,
-                "max_level": 6,
-                "species": "SPECIES_TAILLOW"
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MUDKIP"
               }
             ]
           },
