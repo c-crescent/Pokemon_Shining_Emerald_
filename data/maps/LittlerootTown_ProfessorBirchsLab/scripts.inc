@@ -180,40 +180,6 @@ LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForPokedex:
 LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex::
 	lockall
 	delay 30
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_BIRCH, LittlerootTown_ProfessorBirchsLab_Movement_BirchRetrievePokedexes
-	waitmovement 0
-	delay 20
-	playse SE_CLICK
-	delay 10
-	playse SE_CLICK
-	delay 10
-	playse SE_CLICK
-	delay 10
-	playse SE_CLICK
-	delay 20
-	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterRight
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayUpgradeComment
-	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanUpgradeComment
-	playse SE_PC_ON
-	waitse
-	delay 20
-	applymovement LOCALID_BIRCH, LittlerootTown_ProfessorBirchsLab_Movement_BirchReturnPokedex
-	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterUp
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone, MSGBOX_DEFAULT
-	playfanfare MUS_OBTAIN_ITEM
-	message LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational
-	waitmessage
-	waitfanfare
-	setflag FLAG_SYS_NATIONAL_DEX
-	special EnableNationalPokedex
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2, MSGBOX_DEFAULT
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_StrangeRockInMossdeep
 	closemessage
@@ -587,6 +553,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex::
 	waitfanfare
 	setflag FLAG_SYS_POKEDEX_GET
 	special SetUnlockedPokedexFlags
+	setflag FLAG_SYS_NATIONAL_DEX
+	special EnableNationalPokedex
 	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
 	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 1
 	return
@@ -1038,21 +1006,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
 	.string "Hunh? PROF. BIRCH?\p"
 	.string "The PROF's away on fieldwork.\n"
-	.string "Ergo, he isn't here.\p"
-	.string "Oh, let me explain what fieldwork is.\p"
-	.string "It is to study things in the natural\n"
-	.string "environment, like fields and mountains,\l"
-	.string "instead of a laboratory.\p"
-	.string "The PROF isn't one for doing desk work.\n"
-	.string "He's the type of person who would\l"
-	.string "rather go outside and experience\l"
-	.string "things than read about them here.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
 	.string "The PROF isn't one for doing desk work.\n"
-	.string "He's the type of person who would\l"
-	.string "rather go outside and experience\l"
-	.string "things than read about them here.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "PROF. BIRCH is studying the habitats\n"
@@ -1062,15 +1018,6 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 	.string "PROF. BIRCH: So, {PLAYER}{KUN}.\p"
-	.string "I've heard so much about you from\n"
-	.string "your father.\p"
-	.string "I've heard that you don't have your\n"
-	.string "own POKéMON yet.\p"
-	.string "But the way you battled earlier,\n"
-	.string "you pulled it off with aplomb!\p"
-	.string "I guess you have your father's blood\n"
-	.string "in your veins after all!\p"
-	.string "Oh, yes. As thanks for rescuing me,\n"
 	.string "I'd like you to have the POKéMON you\l"
 	.string "used earlier.\p"
 	.string "{PLAYER} received the {STR_VAR_1}!$"
@@ -1080,40 +1027,21 @@ LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
 	.string "give a nickname to that {STR_VAR_1}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
-	.string "PROF. BIRCH: If you work at POKéMON\n"
-	.string "and gain experience, I think you'll make\l"
-	.string "an extremely good TRAINER.\p"
-	.string "My kid, {RIVAL}, is also studying\n"
-	.string "POKéMON while helping me out.\p"
-	.string "{PLAYER}{KUN}, don't you think it might be\n"
+	.string "PROF. BIRCH: Don't you think it might be\n"
 	.string "a good idea to go see {RIVAL}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
-	.string "PROF. BIRCH: Great!\n"
-	.string "{RIVAL} should be happy, too.\p"
-	.string "Get {RIVAL} to teach you what it\n"
-	.string "means to be a TRAINER.$"
+	.string "PROF. BIRCH: Great!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
-	.string "PROF. BIRCH: Oh, don't be that way.\n"
-	.string "You should go meet my kid.$"
+	.string "PROF. BIRCH: Oh, don't be that way.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "PROF. BIRCH: {RIVAL}?\n"
 	.string "Gone home, I think.\p"
-	.string "Or maybe that kid's scrabbling around\n"
-	.string "in tall grass again somewhere…\p"
-	.string "If you or your POKéMON get tired,\n"
-	.string "you should get some rest at home.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 	.string "PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "I heard you beat {RIVAL} on\n"
-	.string "your first try. That's excellent!\p"
-	.string "{RIVAL}'s been helping with my research\n"
-	.string "for a long time.\p"
-	.string "{RIVAL} is going to be a great\n"
-	.string "TRAINER.\p"
 	.string "Here, {PLAYER}{KUN}, I ordered this for my\n"
 	.string "research, but I think you should have\l"
 	.string "this POKéDEX.$"
@@ -1125,18 +1053,10 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
 	.string "tool that automatically makes a record\l"
 	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, {RIVAL}, goes everywhere\n"
-	.string "with it.\p"
-	.string "Whenever my kid catches a rare POKéMON\n"
-	.string "and records its data in the POKéDEX,\l"
-	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "PROF. BIRCH: Countless POKéMON\n"
-	.string "await you!\p"
-	.string "Argh, I'm getting the itch to get out\n"
-	.string "and do fieldwork again!$"
+	.string "await you!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 	.string "MAY: Oh, wow, {PLAYER}{KUN}!\n"
@@ -1161,17 +1081,11 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
 	.string "BRENDAN: Huh…\n"
-	.string "So you got a POKéDEX, too.\p"
-	.string "Well then, here.\n"
 	.string "I'll give you these.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 	.string "BRENDAN: You know it's more fun to\n"
-	.string "have a whole bunch of POKéMON.\p"
-	.string "I'm going to explore all over the place\n"
-	.string "to find different POKéMON.\p"
-	.string "If I find any cool POKéMON, you bet\n"
-	.string "I'll try to get them with POKé BALLS.$"
+	.string "have a whole bunch of POKéMON.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
 	.string "Hey, your BAG's full.$"
@@ -1198,32 +1112,16 @@ LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
 	.string "PROF. BIRCH: Now…\p"
 	.string "{PLAYER}{KUN} and {RIVAL}, I've had the two\n"
 	.string "of you help me study POKéMON.\p"
-	.string "Thanks to your help, new facts\n"
-	.string "are coming to light.\p"
-	.string "It appears that in the HOENN region,\n"
-	.string "there are also POKéMON from other\l"
-	.string "regions.\p"
-	.string "It goes to show how rich and varied\n"
-	.string "the natural environments of HOENN\l"
-	.string "happen to be.\p"
-	.string "That's why I think it's necessary for\n"
-	.string "me to upgrade your POKéDEX to\l"
-	.string "the NATIONAL Mode.\p"
 	.string "Here, let me see your POKéDEX units.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
 	.string "MAY: Eheheh!\p"
 	.string "It's so cool that even my POKéDEX\n"
-	.string "is getting updated!\p"
-	.string "It's because you went out and caught\n"
-	.string "so many POKéMON, {PLAYER}{KUN}!$"
+	.string "is getting updated!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
 	.string "BRENDAN: I went out all over HOENN\n"
-	.string "and checked out POKéMON.\p"
-	.string "You can thank me for getting\n"
-	.string "the NATIONAL Mode POKéDEX.\p"
-	.string "Yep, you're lucky, {PLAYER}!$"
+	.string "and checked out POKéMON.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone:
 	.string "PROF. BIRCH: Okay, all done!$"
@@ -1235,21 +1133,10 @@ LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 	.string "PROF. BIRCH: But listen.\n"
 	.string "You've become the CHAMPION,\l"
-	.string "but your POKéMON journey isn't over.\p"
-	.string "There is no end to the road\n"
-	.string "that is POKéMON.\p"
-	.string "Somewhere, there is a grassy patch\n"
-	.string "that's waiting for you!$"
+	.string "but your POKéMON journey isn't over.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_StrangeRockInMossdeep:
 	.string "PROF. BIRCH: Oh, before I forget…\n"
-	.string "I've been researching something\l"
-	.string "quite curious in MOSSDEEP CITY.\p"
-	.string "There's a strange rock there that\n"
-	.string "has puzzled me for some time.\p"
-	.string "It's unlike anything I've seen before,\n"
-	.string "and I believe it may be connected\l"
-	.string "to a rare phenomenon.\p"
 	.string "Would you mind coming to MOSSDEEP\n"
 	.string "to take a look? I'd like to show it\l"
 	.string "to you personally.$"
@@ -1269,15 +1156,8 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
 	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
 	.string "Let's have a look at your POKéDEX.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Yes, there's no doubt about it.\p"
 	.string "You really have completed the HOENN\n"
 	.string "region's POKéDEX.\p"
-	.string "That's more than just impressive.\p"
-	.string "I have a gift for you.\p"
-	.string "Consider it my show of appreciation\n"
-	.string "for the fantastic work you've done.\p"
 	.string "My gift is a rare POKéMON only found\n"
 	.string "in another region!\p"
 	.string "You can have any one of these\n"
@@ -1328,12 +1208,7 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 	.string "PROF. BIRCH: Listen, {PLAYER}{KUN}.\n"
-	.string "You've completed the HOENN POKéDEX,\l"
-	.string "but your POKéMON journey isn't over.\p"
-	.string "There is no end to the road\n"
-	.string "that is POKéMON.\p"
-	.string "Somewhere, there is a grassy patch\n"
-	.string "that's waiting for you!$"
+	.string "You've completed the HOENN POKéDEX.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone:
 	.string "You received the promised POKéMON.\n"
@@ -1369,19 +1244,9 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
 	.string "the BATTLE FRONTIER?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
 	.string "SCOTT: Hi, hi, {PLAYER}!\n"
 	.string "It's me, SCOTT.\p"
 	.string "I'm aboard the S.S. TIDAL now.\n"
-	.string "It feels great to be on the sea!\p"
-	.string "By the way…\p"
-	.string "There's this place that I'd like to\n"
-	.string "invite you to for a visit.\p"
-	.string "If you're interested, board a ferry\n"
-	.string "at either SLATEPORT or LILYCOVE.\p"
-	.string "I'll fill you in on the details when\n"
-	.string "we meet. I'll be waiting!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
 

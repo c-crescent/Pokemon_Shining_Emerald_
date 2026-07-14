@@ -292,14 +292,7 @@ PlayersHouse_1F_Text_IsntItNiceInHere:
 	.string "Isn't it nice in here, too?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
-	.string "The mover's POKéMON do all the work\n"
-	.string "of moving us in and cleaning up after.\l"
-	.string "This is so convenient!\p"
-	.string "{PLAYER}, your room is upstairs.\n"
-	.string "Go check it out, dear!\p"
-	.string "DAD bought you a new clock to mark\n"
-	.string "our move here.\l"
-	.string "Don't forget to set it!$"
+	.string "{PLAYER}, your room is upstairs.$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
 	.string "MOM: Well, {PLAYER}?\p"
@@ -319,16 +312,12 @@ PlayersHouse_1F_Text_MaybeDadWillBeOn:
 	.string "Maybe DAD will be on!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
-	.string "MOM: Oh… It's over.\p"
-	.string "I think DAD was on, but we missed him.\n"
-	.string "Too bad.$"
+	.string "MOM: Oh… It's over.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 	.string "Oh, yes.\n"
 	.string "One of DAD's friends lives in town.\p"
-	.string "PROF. BIRCH is his name.\p"
-	.string "He lives right next door, so you should\n"
-	.string "go over and introduce yourself.$"
+	.string "Go over and introduce yourself.$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
 	.string "MOM: See you, honey!$"
@@ -382,8 +371,6 @@ PlayersHouse_1F_Text_TheresAMovieOnTV:
 	.string "Better get going!$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
-	.string "It's the instruction booklet for the\n"
-	.string "RUNNING SHOES.\p"
 	.string "“Press the B Button to run while\n"
 	.string "wearing your RUNNING SHOES.\p"
 	.string "“Lace up your RUNNING SHOES and hit\n"
@@ -392,11 +379,6 @@ PlayersHouse_1F_Text_RunningShoesManual:
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "DAD: Hm?\p"
 	.string "Hey, it's {PLAYER}!\p"
-	.string "It's been a while since I saw you,\n"
-	.string "but you look…stronger, somehow.\p"
-	.string "That's the impression I get.\n"
-	.string "But your old man hasn't given up yet!\p"
-	.string "Oh, yes, I have something for you.\n"
 	.string "This came to you from someone named\l"
 	.string "MR. BRINEY.$"
 

@@ -284,12 +284,6 @@ PlayersHouse_2F_Text_ClockIsStopped:
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "MOM: {PLAYER}, how do you like your\n"
 	.string "new room?\p"
-	.string "Good! Everything's put away neatly!\p"
-	.string "They finished moving everything in\n"
-	.string "downstairs, too.\p"
-	.string "POKéMON movers are so convenient!\p"
-	.string "Oh, you should make sure that\n"
-	.string "everything's all there on your desk.$"
 
 PlayersHouse_2F_Text_Notebook:
 	.string "{PLAYER} flipped open the notebook.\p"

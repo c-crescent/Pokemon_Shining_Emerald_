@@ -52,3 +52,11 @@ All of these values are compared to Emerald Legacy, not vanilla.
     5. Chansey now evolves to Blissey at lvl 42.
 # Encounters
 ## Location
+
+# Quality of Life
+## Story
+1. Significantly reduced the amount of unskippable text in the early game.
+## Catch 'em All
+1. Rebalanced all encounter rates. Lowest encounter rate for each slot is now 5%.
+2. All non-legendary Pokemon catchable in the wild before the first Elite 4. The player is given the National Dex immediately.
+3. All Pokemon acquirable after the Elite 4.
