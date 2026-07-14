@@ -37,3 +37,8 @@ All of these values are compared to Emerald Legacy, not vanilla.
 2. Nosepass now has 70 base ATK.
 3. Corsola now has 105 base DEF and SPD.
 4. Kecleon now has 90 base SPA and 50 base SPE.
+# Quality of Life
+## Story
+1. Significantly reduced the amount of unskippable text in the early game.
+## Catch 'em All
+1. Rebalanced all encounter rates. Lowest encounter rate for each slot is now 5%.
