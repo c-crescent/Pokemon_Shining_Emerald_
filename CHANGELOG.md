@@ -52,7 +52,7 @@ All of these values are compared to Emerald Legacy, not vanilla.
     5. Chansey now evolves to Blissey at lvl 42.
 # Encounters
 ## Location
-
+1. Hoenn starters are now available in the early game
 # Quality of Life
 ## Story
 1. Significantly reduced the amount of unskippable text in the early game.
