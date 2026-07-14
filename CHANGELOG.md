@@ -56,7 +56,10 @@ All of these values are compared to Emerald Legacy, not vanilla.
 # Quality of Life
 ## General
 1. Significantly reduced the amount of unskippable text in the early game.
-2. Removed Running Shoes. Player now always run.
+2. The clock in the player's room now default to yes.
+3. Birch is available to save immediately after setting the clock.
+4. Removed Running Shoes. Player now always run.
+5. Girl is now the default gender option.
 ## Catch 'em All
 1. Rebalanced all encounter rates. Lowest encounter rate for each slot is now 5%.
 2. All non-legendary Pokemon catchable in the wild before the first Elite 4. The player is given the National Dex immediately.

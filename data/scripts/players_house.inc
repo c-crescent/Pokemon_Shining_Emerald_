@@ -173,6 +173,8 @@ PlayersHouse_1F_EventScript_SetWatchedBroadcast::
 	end
 
 PlayersHouse_1F_EventScript_PetalburgGymReportMale::
+	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
+	setvar VAR_LITTLEROOT_TOWN_STATE, 1
 	applymovement VAR_0x8005, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	call PlayersHouse_1F_EventScript_MomNoticeGymBroadcast
@@ -194,10 +196,12 @@ PlayersHouse_1F_EventScript_PetalburgGymReportMale::
 	setvar VAR_TEMP_1, 1
 	applymovement VAR_0x8005, PlayersHouse_1F_Movement_MomReturnToSeatMale
 	waitmovement 0
-	goto PlayersHouse_1F_EventScript_SetWatchedBroadcast
+	goto PlayersHouse_1F_EventScript_SetWatchedBroadcast	
 	end
 
 PlayersHouse_1F_EventScript_PetalburgGymReportFemale::
+	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
+	setvar VAR_LITTLEROOT_TOWN_STATE, 1
 	applymovement VAR_0x8005, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	call PlayersHouse_1F_EventScript_MomNoticeGymBroadcast
@@ -219,7 +223,7 @@ PlayersHouse_1F_EventScript_PetalburgGymReportFemale::
 	setvar VAR_TEMP_1, 1
 	applymovement VAR_0x8005, PlayersHouse_1F_Movement_MomReturnToSeatFemale
 	waitmovement 0
-	goto PlayersHouse_1F_EventScript_SetWatchedBroadcast
+	goto PlayersHouse_1F_EventScript_SetWatchedBroadcast	
 	end
 
 PlayersHouse_1F_EventScript_MomNoticeGymBroadcast::
