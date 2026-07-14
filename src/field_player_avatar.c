@@ -646,7 +646,7 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     }
     else
     {
-        PlayerWalkNormal(direction);
+        PlayerRun(direction);
     }
 }
 
