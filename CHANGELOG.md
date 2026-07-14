@@ -1,3 +1,4 @@
+# Moves
 ## Move Balance
 All of these values are compared to Emerald Legacy, not vanilla.
 1. All moves with 95% accuracy now have 100% accuracy instead.
@@ -37,3 +38,17 @@ All of these values are compared to Emerald Legacy, not vanilla.
 2. Nosepass now has 70 base ATK.
 3. Corsola now has 105 base DEF and SPD.
 4. Kecleon now has 90 base SPA and 50 base SPE.
+## Evolution
+1. Horsea now evolves to Seadra at lvl 28.
+2. Seadra now evolves to Kingdra at lvl 38.
+3. Onix now evolves to Steelix at lvl 30.
+4. Porygon now evolves to Porygon 2 at lvl 36.
+5. Snorunt now evolves to Glalie at lvl 34.
+6. Removed all friendship evolutions.
+    1. Eevee now evolves to Espeon with a Sun Stone.
+    2. Eevee now evolves to Umbreon with a Moon Stone.
+    3. All baby Pokemon now evolve at lvl 10.
+    4. Golbat now evolves to Crobat at lvl 36.
+    5. Chansey now evolves to Blissey at lvl 42.
+# Encounters
+## Location
