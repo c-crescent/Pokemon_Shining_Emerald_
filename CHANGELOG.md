@@ -1,3 +1,37 @@
+# Quality of Life
+## General
+1. Significantly reduced the amount of unskippable text in the early game.
+2. The clock in the player's room now default to yes.
+3. Birch is available to save immediately after setting the clock.
+4. Removed Running Shoes. Player now always run.
+5. Girl is now the default gender option.
+## Catch 'em All
+1. Rebalanced all encounter rates. Lowest encounter rate for each slot is now 5%.
+2. All non-legendary Pokemon catchable in the wild before the first Elite 4. The player is given the National Dex immediately.    
+3. All Pokemon acquirable after the Elite 4.
+# Pokemon Changes
+## General
+## Stat Changes
+1. Spinda now has 66 in all base stats.
+2. Nosepass now has 70 base ATK.
+3. Corsola now has 105 base DEF and SPD.
+4. Kecleon now has 90 base SPA and 50 base SPE.
+## Evolution
+1. Horsea now evolves to Seadra at lvl 28.
+2. Seadra now evolves to Kingdra at lvl 38.
+3. Onix now evolves to Steelix at lvl 30.
+4. Porygon now evolves to Porygon 2 at lvl 36.
+5. Snorunt now evolves to Glalie at lvl 34.
+6. Removed all friendship evolutions.
+    1. Eevee now evolves to Espeon with a Sun Stone.
+    2. Eevee now evolves to Umbreon with a Moon Stone.
+    3. All baby Pokemon now evolve at lvl 10.
+    4. Golbat now evolves to Crobat at lvl 36.
+    5. Chansey now evolves to Blissey at lvl 42.
+# Encounters
+## Location
+1. Hoenn starters are now freely available in the early game.
+2. Feebas can now be fished on route 119 and route 104, replacing Magikarp.
 # Moves
 ## Move Balance
 All of these values are compared to Emerald Legacy, not vanilla.
@@ -31,37 +65,4 @@ All of these values are compared to Emerald Legacy, not vanilla.
 28. Comet Punch is now a Fighting type move.
 29. Double Slap now hits twice and has 30 BP.
 30. Shadow Punch now has 75 BP.
-# Pokemon Changes
-## General
-## Stat Changes
-1. Spinda now has 66 in all base stats.
-2. Nosepass now has 70 base ATK.
-3. Corsola now has 105 base DEF and SPD.
-4. Kecleon now has 90 base SPA and 50 base SPE.
-## Evolution
-1. Horsea now evolves to Seadra at lvl 28.
-2. Seadra now evolves to Kingdra at lvl 38.
-3. Onix now evolves to Steelix at lvl 30.
-4. Porygon now evolves to Porygon 2 at lvl 36.
-5. Snorunt now evolves to Glalie at lvl 34.
-6. Removed all friendship evolutions.
-    1. Eevee now evolves to Espeon with a Sun Stone.
-    2. Eevee now evolves to Umbreon with a Moon Stone.
-    3. All baby Pokemon now evolve at lvl 10.
-    4. Golbat now evolves to Crobat at lvl 36.
-    5. Chansey now evolves to Blissey at lvl 42.
-# Encounters
-## Location
-1. Hoenn starters are now available in the early game
-# Quality of Life
-## General
-1. Significantly reduced the amount of unskippable text in the early game.
-2. The clock in the player's room now default to yes.
-3. Birch is available to save immediately after setting the clock.
-4. Removed Running Shoes. Player now always run.
-5. Girl is now the default gender option.
-## Catch 'em All
-1. Rebalanced all encounter rates. Lowest encounter rate for each slot is now 5%.
-2. All non-legendary Pokemon catchable in the wild before the first Elite 4. The player is given the National Dex immediately.
-    1. Feebas can now be fished on route 119 and route 104, replacing Magikarp.
-3. All Pokemon acquirable after the Elite 4.
+
