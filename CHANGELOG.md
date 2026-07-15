@@ -13,6 +13,7 @@
 2. All non-legendary Pokemon catchable in the wild before the first Elite 4. The player is given the National Dex immediately.    
 3. All Pokemon acquirable after the Elite 4.
 4. Catching Pokemon now grants EXP.
+5. Fishing can no longer fail.
 # Pokemon Changes
 ## General
 ## Stat Changes
