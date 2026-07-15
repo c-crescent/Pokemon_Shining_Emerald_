@@ -268,25 +268,23 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon)
     u8 range;
     u8 rand;
     u8 count = gPlayerPartyCount;
-    u8 averageLevel = 0;
+    u8 leadLvl = 0;
 
     while (count-- > 0) {
         if (GetMonData(&gPlayerParty[count], MON_DATA_SPECIES) != SPECIES_NONE){
-            averageLevel += GetMonData(&gPlayerParty[count], MON_DATA_LEVEL);
+            leadLvl = GetMonData(&gPlayerParty[count], MON_DATA_LEVEL);
         }
     }
-    averageLevel = averageLevel / gPlayerPartyCount;
 
-    min = averageLevel - 5;
-    max = averageLevel + 1;
+    min = leadLvl - 6;
 
-    if (min <= 0)
-        min = 1;
+    if (min < wildPokemon->minLevel)
+        min = wildPokemon->minLevel;
+    if (max < min)
+        max = min + 4;
     if (max >= 100)
-        max = 98;
-    if (min >= max)
-        min = max - 1;
-        
+        max = 100;
+
     range = max - min + 1;
     rand = Random() % range;
 
