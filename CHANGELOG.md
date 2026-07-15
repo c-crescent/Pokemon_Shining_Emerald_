@@ -5,6 +5,7 @@
 3. Birch is available to save immediately after setting the clock.
 4. Removed Running Shoes. Player now always run.
 5. Girl is now the default gender option.
+6. Text now prints twice as fast.
 ## Exploration
 1. All HMs can be used as long as the HM is in the bag without checking for Pokemon compatibility / learnset.
 2. Flash is automatically used upon entering a cave if the HM is available.

@@ -967,10 +967,10 @@ static u16 RenderText(struct TextPrinter *textPrinter)
 				repeats = 1;
 				break;
 			case OPTIONS_TEXT_SPEED_MID:
-				repeats = 1;
+				repeats = 2;
 				break;
 			case OPTIONS_TEXT_SPEED_FAST:
-				repeats = 2;
+				repeats = 4;
 				break;
         }
 	do {
