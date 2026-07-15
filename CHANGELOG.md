@@ -10,6 +10,7 @@
 1. All HMs can be used as long as the HM is in the bag without checking for Pokemon compatibility / learnset.
 2. Flash is automatically used upon entering a cave if the HM is available.
 3. TMs are now treated like HMs (can't be sold, held, or consumed).
+4. Move Tutors are now always unlimited.
 ## Catch 'em All
 1. Rebalanced all encounter rates. Lowest encounter rate for each slot is now 5%.
 2. All non-legendary Pokemon catchable in the wild before the first Elite 4. The player is given the National Dex immediately.    
