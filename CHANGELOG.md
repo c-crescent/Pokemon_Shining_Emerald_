@@ -12,6 +12,7 @@
 1. Rebalanced all encounter rates. Lowest encounter rate for each slot is now 5%.
 2. All non-legendary Pokemon catchable in the wild before the first Elite 4. The player is given the National Dex immediately.    
 3. All Pokemon acquirable after the Elite 4.
+4. Catching Pokemon now grants EXP.
 # Pokemon Changes
 ## General
 ## Stat Changes
