@@ -17,6 +17,7 @@
 5. Fishing can no longer fail.
 ## Battle
 1. HP Bars now drain faster.
+2. Return / Frustration now show their BP in summary screen.
 # Pokemon Changes
 ## General
 ## Stat Changes
