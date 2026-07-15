@@ -15,6 +15,8 @@
 3. All Pokemon acquirable after the Elite 4.
 4. Catching Pokemon now grants EXP.
 5. Fishing can no longer fail.
+## Battle
+1. HP Bars now drain faster.
 # Pokemon Changes
 ## General
 ## Stat Changes
