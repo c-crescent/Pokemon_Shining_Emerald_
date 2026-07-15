@@ -730,7 +730,7 @@ static const u8 sMachoBraceDesc[] = _(
 
 static const u8 sExpShareDesc[] = _(
     "A hold item that\n"
-    "gets EXP. points\n"
+    "spreads EXP.\n"
     "from battles.");
 
 static const u8 sQuickClawDesc[] = _(
