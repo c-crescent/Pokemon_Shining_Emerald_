@@ -615,6 +615,35 @@ static const struct MenuAction MultichoiceList_FossilPostGame[] =
     {gText_Exit},
 };
 
+static const struct MenuAction MultichoiceList_NatureList[] =
+{
+    {gText_Hardy},
+    {gText_Lonely},
+    {gText_Brave},
+    {gText_Adamant},
+    {gText_Naughty},
+    {gText_Bold},
+    {gText_Docile},
+    {gText_Relaxed},
+    {gText_Impish},
+    {gText_Lax},
+    {gText_Timid},
+    {gText_Hasty},
+    {gText_Serious},
+    {gText_Jolly},
+    {gText_Naive},
+    {gText_Modest},
+    {gText_Mild},
+    {gText_Quiet},
+    {gText_Bashful},
+    {gText_Rash},
+    {gText_Calm},
+    {gText_Gentle},
+    {gText_Sassy},
+    {gText_Careful},
+    {gText_Quirky},
+};
+
 static const struct MenuAction MultichoiceList_YesNo[] =
 {
     {gText_Yes},
@@ -889,6 +918,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_UNUSED_SSTIDAL_4]           = MULTICHOICE(MultichoiceList_UnusedSSTidal4),
     [MULTI_FOSSIL]                     = MULTICHOICE(MultichoiceList_Fossil),
     [MULTI_FOSSIL_POST_GAME]           = MULTICHOICE(MultichoiceList_FossilPostGame),
+    [MULTI_NATURE_LIST]                = MULTICHOICE(MultichoiceList_NatureList),
     [MULTI_YESNO]                      = MULTICHOICE(MultichoiceList_YesNo),
     [MULTI_FRONTIER_RULES]             = MULTICHOICE(MultichoiceList_FrontierRules),
     [MULTI_BATTLE_ARENA_RULES]         = MULTICHOICE(MultichoiceList_BattleArenaRules),

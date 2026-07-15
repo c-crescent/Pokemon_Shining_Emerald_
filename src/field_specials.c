@@ -4472,3 +4472,15 @@ void CheckGotAllKantoStarters(void)
         return;
     }
 }
+
+void ChangeLeadPokemonNature(void)
+{
+    struct Pokemon *mon = &gPlayerParty[0];
+    u16 species;
+    u8 level;
+    u8 nature = gSpecialVar_0x8004;
+
+    species = GetMonData(mon, MON_DATA_SPECIES, NULL);
+    level = GetMonData(mon, MON_DATA_LEVEL, NULL);
+    CreateMonWithNature(mon, species, level, 31, nature);
+}

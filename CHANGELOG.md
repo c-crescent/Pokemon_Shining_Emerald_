@@ -8,6 +8,7 @@
 6. Text now prints twice as fast.
 7. Text option is now fast by default. Sound option is now stereo by default.
 8. Odale Town Mart now sells Rare Candies & Master Balls. Rare Candies are now free.
+9. An Odale Town NPC will change the nature of your lead Pokemon and set its IVs to 31 for free.
 ## Exploration
 1. All HMs can be used as long as the HM is in the bag without checking for Pokemon compatibility / learnset.
 2. Flash is automatically used upon entering a cave if the HM is available.
