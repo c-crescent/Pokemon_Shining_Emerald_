@@ -22,6 +22,7 @@
 ## Battle
 1. HP Bars now drain faster.
 2. Return / Frustration now show their BP in summary screen.
+3. Badge Boosts removed. Badges now raise obedience levels instead.
 # Pokemon Changes
 ## General
 ## Stat Changes
