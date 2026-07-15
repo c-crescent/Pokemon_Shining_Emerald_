@@ -19,13 +19,13 @@
 3. All Pokemon acquirable after the Elite 4.
 4. Catching Pokemon now grants EXP.
 5. Fishing can no longer fail.
-6. Wild Pokemon now scales with player's lead Pokemon.
+6. Wild Pokemon now scales with player's lead Pokemon, within 6 to 2 levels lower.
 ## Battle
 1. HP Bars now drain faster.
 2. Return / Frustration now show their BP in summary screen.
 3. Badge Boosts removed. Badges now raise obedience levels instead.
 4. Implemented gen 6 EXP-style EXP. share.
-5. Trainer Pokemon now scales to be 3 lower than player's lead Pokemon.
+5. Trainer Pokemon now scales to be 3 lower than player's lead Pokemon, if the lead Pokemon outlevels.
 # Pokemon Changes
 ## General
 ## Stat Changes
