@@ -5,6 +5,9 @@
 3. Birch is available to save immediately after setting the clock.
 4. Removed Running Shoes. Player now always run.
 5. Girl is now the default gender option.
+## Exploration
+1. All HMs can be used as long as the HM is in the bag without checking for Pokemon compatibility / learnset.
+2. Flash is automatically used upon entering a cave if the HM is available.
 ## Catch 'em All
 1. Rebalanced all encounter rates. Lowest encounter rate for each slot is now 5%.
 2. All non-legendary Pokemon catchable in the wild before the first Elite 4. The player is given the National Dex immediately.    
