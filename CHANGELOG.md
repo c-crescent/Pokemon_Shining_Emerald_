@@ -6,6 +6,7 @@
 4. Removed Running Shoes. Player now always run.
 5. Girl is now the default gender option.
 6. Text now prints twice as fast.
+7. Text option is now fast by default. Sound option is now stereo by default.
 ## Exploration
 1. All HMs can be used as long as the HM is in the bag without checking for Pokemon compatibility / learnset.
 2. Flash is automatically used upon entering a cave if the HM is available.
