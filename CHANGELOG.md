@@ -25,6 +25,7 @@
 2. Return / Frustration now show their BP in summary screen.
 3. Badge Boosts removed. Badges now raise obedience levels instead.
 4. Implemented gen 6 EXP-style EXP. share.
+5. Trainer Pokemon now scales to be 3 lower than your lead Pokemon.
 # Pokemon Changes
 ## General
 ## Stat Changes
