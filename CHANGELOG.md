@@ -63,4 +63,5 @@ All of these values are compared to Emerald Legacy, not vanilla.
 ## Catch 'em All
 1. Rebalanced all encounter rates. Lowest encounter rate for each slot is now 5%.
 2. All non-legendary Pokemon catchable in the wild before the first Elite 4. The player is given the National Dex immediately.
+    1. Feebas can now be fished on route 119 and route 104, replacing Magikarp.
 3. All Pokemon acquirable after the Elite 4.
