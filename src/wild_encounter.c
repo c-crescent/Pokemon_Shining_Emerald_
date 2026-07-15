@@ -267,23 +267,31 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon)
     u8 max;
     u8 range;
     u8 rand;
+    u8 leadMonLvl = 1;
     u8 count = gPlayerPartyCount;
-    u8 leadLvl = 0;
 
     while (count-- > 0) {
         if (GetMonData(&gPlayerParty[count], MON_DATA_SPECIES) != SPECIES_NONE){
-            leadLvl = GetMonData(&gPlayerParty[count], MON_DATA_LEVEL);
+            leadMonLvl = GetMonData(&gPlayerParty[count], MON_DATA_LEVEL);
+            break;
         }
     }
 
-    min = leadLvl - 6;
-
-    if (min < wildPokemon->minLevel)
+    // Make sure minimum level is less than maximum level
+    if (wildPokemon->maxLevel >= wildPokemon->minLevel)
+    {
         min = wildPokemon->minLevel;
-    if (max < min)
-        max = min + 4;
-    if (max >= 100)
-        max = 100;
+        max = wildPokemon->maxLevel;
+    }
+    else
+    {
+        min = wildPokemon->maxLevel;
+        max = wildPokemon->minLevel;
+    }
+
+    if (max + 5 < leadMonLvl && leadMonLvl > 10) {
+        max = leadMonLvl - 3;
+    }
 
     range = max - min + 1;
     rand = Random() % range;
