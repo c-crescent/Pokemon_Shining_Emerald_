@@ -51,7 +51,7 @@
 ## Location
 1. Hoenn starters are now freely available in the early game.
 2. Feebas can now be fished on route 119 and route 104, replacing Magikarp.
-# Moves
+# Balancing
 ## Move Balance
 All of these values are compared to Emerald Legacy, not vanilla.
 1. All moves with 95% accuracy now have 100% accuracy instead.
@@ -84,4 +84,6 @@ All of these values are compared to Emerald Legacy, not vanilla.
 28. Comet Punch is now a Fighting type move.
 29. Double Slap now hits twice and has 30 BP.
 30. Shadow Punch now has 75 BP.
-
+## Trainer Parties
+1. First Norman fight now has an additional Kangaskhan.
+2. First Wallace fight now has an additional Kabutops.

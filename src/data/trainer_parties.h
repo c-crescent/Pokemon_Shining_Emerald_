@@ -3940,7 +3940,7 @@ static const struct TrainerMon sParty_Flannery1[] = {
 static const struct TrainerMon sParty_Norman1[] = {
     {
     .iv = 200,
-    .lvl = 31,
+    .lvl = 30,
     .species = SPECIES_VIGOROTH,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SLASH, MOVE_FACADE, MOVE_ENCORE, MOVE_FAINT_ATTACK}
@@ -3958,6 +3958,13 @@ static const struct TrainerMon sParty_Norman1[] = {
     .species = SPECIES_LINOONE,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_PURSUIT, MOVE_BELLY_DRUM, MOVE_FACADE, MOVE_DIG}
+    },
+    {
+    .iv = 200,
+    .lvl = 31,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_CHESTO_BERRY,
+    .moves = {MOVE_EARTHQUAKE, MOVE_REST, MOVE_SHADOW_BALL, MOVE_DOUBLE_EDGE}
     },
     {
     .iv = 250,
@@ -5021,6 +5028,13 @@ static const struct TrainerMon sParty_Wallace1[] = {
     .species = SPECIES_LUDICOLO,
     .heldItem = ITEM_MYSTIC_WATER,
     .moves = {MOVE_GIGA_DRAIN, MOVE_WATER_PULSE, MOVE_LEECH_SEED, MOVE_DOUBLE_TEAM}
+    },
+    {
+    .iv = 255,
+    .lvl = 50,
+    .species = SPECIES_KABUTOPS,
+    .heldItem = ITEM_HARD_STONE,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_ROCK_SLIDE, MOVE_MUD_SHOT, MOVE_KNOCK_OFF}
     },
     {
     .iv = 255,
