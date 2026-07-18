@@ -364,6 +364,12 @@ SlateportCity_Harbor_EventScript_Shop::
 SlateportCity_Harbor_Pokemart:
 	.2byte ITEM_DEEP_SEA_TOOTH
 	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_FIRE_STONE
+	.2byte ITEM_WATER_STONE
+	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_SUN_STONE
+	.2byte ITEM_MOON_STONE
 	.2byte ITEM_NONE
 	release
 	end

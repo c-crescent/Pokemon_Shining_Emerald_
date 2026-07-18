@@ -23,6 +23,7 @@
 5. Fishing can no longer fail.
 6. Wild Pokemon now scales with player's lead Pokemon, within 6 to 2 levels lower.
 7. Quadrupled shiny odds.
+8. All evolution stones now available at Slateport.
 ## Battle
 1. HP Bars now drain faster.
 2. Return / Frustration now show their BP in summary screen.
