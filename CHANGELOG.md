@@ -33,6 +33,8 @@
 4. Implemented gen 6 EXP-style EXP. share.
 5. Trainer Pokemon now scales to be 3 lower than player's lead Pokemon, if the lead Pokemon outlevels.
 6. Metal Coat, Choice Band, & Leftovers now available to buy post-game.
+7. Black Glasses & Spell Tag are now sold at Mossdeep instead.
+8. Pokemon League now sells every non-Gym reward TM.
 # Pokemon Changes
 ## General
 ## Type Changes
