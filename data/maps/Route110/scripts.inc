@@ -767,7 +767,7 @@ Route110_Text_MayLetsBattle:
 	.string "How about a little battle?$"
 
 Route110_Text_MayDefeated:
-	.string "Yikes!\n"
+	.string "Hmm…\n"
 	.string "You're better than I expected!$"
 
 Route110_Text_MayTakeThis:
