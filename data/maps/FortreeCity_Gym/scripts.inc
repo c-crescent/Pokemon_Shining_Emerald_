@@ -86,7 +86,7 @@ FortreeCity_Gym_EventScript_WinonaRematch::
 	goto_if_eq VAR_RESULT, TRUE, FortreeCity_Gym_EventScript_GiveRematchReward
 FortreeCity_Gym_EventScript_WinonaRematchContinue::
 	setvar VAR_TEMP_1, 1
-	trainerbattle_rematch_double TRAINER_WINONA_1, FortreeCity_Gym_Text_WinonaPreRematch, FortreeCity_Gym_Text_WinonaRematchDefeat, FortreeCity_Gym_Text_WinonaRematchNeedTwoMons
+	trainerbattle_rematch TRAINER_WINONA_1, FortreeCity_Gym_Text_WinonaPreRematch, FortreeCity_Gym_Text_WinonaRematchDefeat
 	msgbox FortreeCity_Gym_Text_WinonaPostRematch, MSGBOX_AUTOCLOSE
 	release
 	end
@@ -297,17 +297,10 @@ FortreeCity_Gym_Text_DariusPostBattle:
 FortreeCity_Gym_Text_WinonaIntro:
 	.string "I am WINONA. I am the LEADER of\n"
 	.string "the FORTREE POKéMON GYM.\p"
-	.string "I have become one with BIRD POKéMON\n"
-	.string "and have soared the skies…\p"
-	.string "However grueling the battle, we have\n"
-	.string "triumphed with grace…\p"
 	.string "Witness the elegant choreography\n"
 	.string "of BIRD POKéMON and I!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-	.string "Never before have I seen a TRAINER\n"
-	.string "command POKéMON with more grace\l"
-	.string "than I…\p"
 	.string "In recognition of your prowess,\n"
 	.string "I present to you this GYM BADGE.$"
 
@@ -362,12 +355,6 @@ FortreeCity_Gym_Text_WinonaPostRematch:
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
 	.string "WINONA: We humans can never escape\n"
 	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!\p"
 	.string "Oh, no… Do you have but one\n"
 	.string "POKéMON with you?\p"
 	.string "Please return with two POKéMON\n"

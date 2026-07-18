@@ -163,7 +163,7 @@ SootopolisCity_Gym_1F_EventScript_JuanRematch::
 	goto_if_eq VAR_RESULT, TRUE, SootopolisCity_Gym_1F_EventScript_GiveRematchReward
 SootopolisCity_Gym_1F_EventScript_JuanRematchContinue::
 	setvar VAR_TEMP_1, 1
-	trainerbattle_rematch_double TRAINER_JUAN_1, SootopolisCity_Gym_1F_Text_JuanPreRematch, SootopolisCity_Gym_1F_Text_JuanRematchDefeat, SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons
+	trainerbattle_rematch TRAINER_JUAN_1, SootopolisCity_Gym_1F_Text_JuanPreRematch, SootopolisCity_Gym_1F_Text_JuanRematchDefeat
 	msgbox SootopolisCity_Gym_1F_Text_JuanPostRematch, MSGBOX_AUTOCLOSE
 	release
 	end
@@ -294,15 +294,6 @@ SootopolisCity_Gym_1F_Text_WallaceIntro:
 	.string "Allow me to formally introduce\n"
 	.string "myself.\p"
 	.string "I am WALLACE.\n"
-	.string "The GYM LEADER of SOOTOPOLIS.\p"
-	.string "There's something about you…\n"
-	.string "A difference in your demeanor.\p"
-	.string "I think I sense that in you.\p"
-	.string "What happened on top of the SKY\n"
-	.string "PILLAR, and what you did, I will likely\l"
-	.string "learn through our upcoming battle.\p"
-	.string "Now, show me. Show me the power you\n"
-	.string "wield with your POKéMON.\p"
 	.string "And I, in turn, shall present you with\n"
 	.string "a performance of illusions in water\l"
 	.string "by me and my POKéMON!$"
@@ -328,10 +319,6 @@ SootopolisCity_Gym_1F_Text_JuanDefeat:
 
 SootopolisCity_Gym_1F_Text_WallaceDefeat:
 	.string "Bravo.\p"
-	.string "I realize now your authenticity and\n"
-	.string "magnificence as a POKéMON TRAINER.\p"
-	.string "I find much joy in having met you and\n"
-	.string "your POKéMON.\p"
 	.string "You have proven yourself worthy of\n"
 	.string "the RAIN BADGE. Accept it.$"
 
