@@ -57,6 +57,7 @@ MauvilleCity_Mart_Pokemart_PostGame:
 	.2byte ITEM_DIRE_HIT
 	.2byte ITEM_X_ACCURACY
 	.2byte ITEM_MAGNET
+	.2byte ITEM_METAL_COAT
 	.2byte ITEM_NONE
 	release
 	end
