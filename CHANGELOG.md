@@ -31,6 +31,8 @@
 5. Trainer Pokemon now scales to be 3 lower than player's lead Pokemon, if the lead Pokemon outlevels.
 # Pokemon Changes
 ## General
+## Type Changes
+1. Ninetales is now part Ghost type.
 ## Stat Changes
 1. Spinda now has 66 in all base stats.
 2. Nosepass now has 70 base ATK.
