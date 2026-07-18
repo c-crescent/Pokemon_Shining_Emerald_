@@ -9,6 +9,7 @@
 7. Text option is now fast by default. Sound option is now stereo by default.
 8. Odale Town Mart now sells Rare Candies & Master Balls. Rare Candies are now free.
 9. An Odale Town NPC will change the nature of your lead Pokemon and set its IVs to 31 for free.
+10. Coins can now be bought 1-to-1 with normal currency.
 ## Exploration
 1. All HMs can be used as long as the HM is in the bag without checking for Pokemon compatibility / learnset.
 2. Flash is automatically used upon entering a cave if the HM is available.
@@ -17,13 +18,14 @@
 5. Removed the mandatory first Zigzagoon battle.
 ## Catch 'em All
 1. Rebalanced all encounter rates. Lowest encounter rate for each slot is now 5%.
-2. All non-legendary Pokemon catchable in the wild before the first Elite 4. The player is given the National Dex immediately.    
+2. All non-legendary Pokemon catchable in the wild (except Porygon) before the first Elite 4. The player is given the National Dex immediately.    
 3. All Pokemon acquirable after the Elite 4.
 4. Catching Pokemon now grants EXP.
 5. Fishing can no longer fail.
 6. Wild Pokemon now scales with player's lead Pokemon, within 6 to 2 levels lower.
 7. Quadrupled shiny odds.
 8. All evolution stones now available at Slateport.
+9. Mewtwo can now be caught after completing all Gym Leader rematches.
 ## Battle
 1. HP Bars now drain faster.
 2. Return / Frustration now show their BP in summary screen.

@@ -9,7 +9,7 @@ AlteringCave_OnTransition:
 	setflag FLAG_LANDMARK_ALTERING_CAVE
 	call_if_unset FLAG_CAUGHT_MEWTWO, AlteringCave_EventScript_TryShowMewtwo
 	call_if_set FLAG_CAUGHT_MEWTWO, AlteringCave_EventScript_HideMewtwo
-	call_if_unset FLAG_COLLECTED_ALL_SILVER_SYMBOLS, AlteringCave_EventScript_HideMewtwo
+	call_if_unset FLAG_BEAT_ALL_3RD_REMATCHES, AlteringCave_EventScript_HideMewtwo
 	end
 
 AlteringCave_EventScript_HideMewtwo::
@@ -20,7 +20,7 @@ AlteringCave_EventScript_HideMewtwo::
 AlteringCave_EventScript_TryShowMewtwo::
 	setvar VAR_TEMP_1, 1
 	goto_if_set FLAG_DEFEATED_MEWTWO, Common_EventScript_NopReturn
-	goto_if_unset FLAG_COLLECTED_ALL_SILVER_SYMBOLS, Common_EventScript_NopReturn
+	goto_if_unset FLAG_BEAT_ALL_3RD_REMATCHES, Common_EventScript_NopReturn
 	setvar VAR_TEMP_1, 0
 	clearflag FLAG_HIDE_MEWTWO
 	return
