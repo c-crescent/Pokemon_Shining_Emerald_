@@ -35,11 +35,16 @@
 ## General
 ## Type Changes
 1. Ninetales is now part Ghost type.
+2. Seviper is now part Dark type.
+3. Psyduck & Golduck are now part Psychic type.
+4. Blastoise is now part Steel type.
+5. Dunsparce is now part Ground type.
 ## Stat Changes
 1. Spinda now has 66 in all base stats.
 2. Nosepass now has 70 base ATK.
 3. Corsola now has 105 base DEF and SPD.
 4. Kecleon now has 90 base SPA and 50 base SPE.
+5. Articuno now has 126 base SPA and 95 base SPD.
 ## Evolution
 1. Horsea now evolves to Seadra at lvl 28.
 2. Seadra now evolves to Kingdra at lvl 38.
