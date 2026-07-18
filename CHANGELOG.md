@@ -90,5 +90,6 @@ All of these values are compared to Emerald Legacy, not vanilla.
 ## Trainer Parties
 1. First Norman fight now has an additional Kangaskhan.
 2. First Wallace fight now has an additional Kabutops.
+3. All E4 members now have 6 Pokemon fully equipped with held items.
 ## Item
 1. Type-based held items now give a 20% boost instead of 10%.
