@@ -50,9 +50,9 @@ OldaleTown_Mart_Pokemart_Expanded:
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
-	.2byte ITEM_NONE
 	.2byte ITEM_MASTER_BALL
 	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_NONE
 	release
 	end
 
@@ -64,9 +64,9 @@ OldaleTown_Mart_Pokemart_PostGame:
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
 	.2byte ITEM_POISON_BARB
-	.2byte ITEM_NONE
 	.2byte ITEM_MASTER_BALL
 	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_NONE
 	release
 	end
 
