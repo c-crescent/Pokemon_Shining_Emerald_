@@ -30,7 +30,7 @@
 3. Badge Boosts removed. Badges now raise obedience levels instead.
 4. Implemented gen 6 EXP-style EXP. share.
 5. Trainer Pokemon now scales to be 3 lower than player's lead Pokemon, if the lead Pokemon outlevels.
-6. Metal Coat & Leftovers now available to buy post-game.
+6. Metal Coat, Choice Band, & Leftovers now available to buy post-game.
 # Pokemon Changes
 ## General
 ## Type Changes
