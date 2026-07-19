@@ -220,7 +220,9 @@ OldaleTown_House1_CancelNatureChange::
 
 OldaleTown_House1_Text_NatureChange:
 	.string "Would you like to change the nature\n"
-	.string "of your lead POKéMON?$"
+	.string "of your lead POKéMON?\p"
+	.string "This will also randomise its\n"
+	.string "personality and reset its name.$"
 
 OldaleTown_House1_Text_NatureChangeSuccess:
 	.string "Your lead POKéMON changed\n"

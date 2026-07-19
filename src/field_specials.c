@@ -4480,7 +4480,9 @@ void ChangeLeadPokemonNature(void)
     u8 level;
     u8 nature = gSpecialVar_0x8004;
 
+    GetMonData(&gPlayerParty[0], MON_DATA_NICKNAME, gStringVar2);
     species = GetMonData(mon, MON_DATA_SPECIES, NULL);
     level = GetMonData(mon, MON_DATA_LEVEL, NULL);
     CreateMonWithNature(mon, species, level, 31, nature);
+    SetMonData(&gPlayerParty[0], MON_DATA_NICKNAME, gStringVar2);
 }
