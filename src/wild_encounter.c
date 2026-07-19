@@ -267,18 +267,18 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon)
     u8 max;
     u8 range;
     u8 rand;
-    u8 leadMonLvl = 1;
-    u8 count = gPlayerPartyCount;
+    u8 numBadges = FlagGet(NUM_BADGES);    
 
-    while (count-- > 0) {
-        if (GetMonData(&gPlayerParty[count], MON_DATA_SPECIES) != SPECIES_NONE){
-            leadMonLvl = GetMonData(&gPlayerParty[count], MON_DATA_LEVEL);
-            break;
-        }
-    }
-
-    // Make sure minimum level is less than maximum level
-    if (wildPokemon->maxLevel >= wildPokemon->minLevel)
+    if (FlagGet(FLAG_BEAT_ALL_3RD_REMATCHES)) {
+        max = 58;
+        min = max - 5;
+    } else if (FlagGet(FLAG_IS_CHAMPION)) {
+        max = 53;
+        min = max - 5;
+    } else if (numBadges > 0) {
+        max = 8 + (numBadges * 5);
+        min = max - 5;
+    } else if (wildPokemon->maxLevel >= wildPokemon->minLevel)
     {
         min = wildPokemon->minLevel;
         max = wildPokemon->maxLevel;
@@ -287,10 +287,6 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon)
     {
         min = wildPokemon->maxLevel;
         max = wildPokemon->minLevel;
-    }
-
-    if (max + 5 < leadMonLvl && leadMonLvl > 10) {
-        max = leadMonLvl - 3;
     }
 
     range = max - min + 1;

@@ -22,7 +22,7 @@
 3. All Pokemon acquirable after the Elite 4.
 4. Catching Pokemon now grants EXP.
 5. Fishing can no longer fail.
-6. Wild Pokemon now scales with player's lead Pokemon, within 6 to 2 levels lower.
+6. Wild Pokemon level now scales with player's badge count, first elite clear, and 3rd rematch clear.
 7. Quadrupled shiny odds.
 8. All evolution stones now available at Slateport.
 9. Mewtwo can now be caught after completing all Gym Leader rematches.
