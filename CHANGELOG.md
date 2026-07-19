@@ -12,6 +12,7 @@
 10. Coins can now be bought 1-to-1 with normal currency.
 11. Player can access Move Relearner from the party menu.
 12. L Button Is Turbo A When L=A Option Is Set
+13. Trade Pokemon can now have their names changed by the Name Rater.
 ## Exploration
 1. All HMs can be used as long as the HM is in the bag without checking for Pokemon compatibility / learnset.
 2. Flash is automatically used upon entering a cave if the HM is available.
@@ -26,11 +27,10 @@
 5. Fishing can no longer fail.
 6. Wild Pokemon level now scales with player's badge count, first elite clear, and 3rd rematch clear.
 7. Quadrupled shiny odds.
-8. All evolution stones now available at Slateport.
+8. All evolution items now available at Slateport.
 9. Mewtwo can now be caught after completing all Gym Leader rematches.
-10. All pseudos now evolve at lvl 24 and 48.
-11. Ho-oh and Lugia are no longer locked behind contests, but 3rd rematch clear instead.
-12. Eon Duo Roamer now only roams route 128, 129, and 130.
+10. Ho-oh and Lugia are no longer locked behind contests, but 3rd rematch clear instead.
+11. Eon Duo Roamer now only roams route 128, 129, and 130.
 ## Battle
 1. HP Bars now drain faster.
 2. Return / Frustration now show their BP in summary screen.
@@ -61,12 +61,15 @@
 3. Onix now evolves to Steelix at lvl 30.
 4. Porygon now evolves to Porygon 2 at lvl 36.
 5. Snorunt now evolves to Glalie at lvl 34.
-6. Removed all friendship evolutions.
+6. All pseudos now evolve at lvl 24 and 48.
+7. Removed all friendship evolutions.
     1. Eevee now evolves to Espeon with a Sun Stone.
     2. Eevee now evolves to Umbreon with a Moon Stone.
     3. All baby Pokemon now evolve at lvl 10.
     4. Golbat now evolves to Crobat at lvl 36.
     5. Chansey now evolves to Blissey at lvl 42.
+8. Tyrogue evolutions are now all by item. King's Rock results in Hitmonlee. Metal coat results in Hitmonchan. Brick Piece results in Hitmontop.
+9. Feebas now evolves at lvl 20 instead of by Beauty.
 # Encounters
 ## Location
 1. Hoenn starters are now freely available in the early game.
