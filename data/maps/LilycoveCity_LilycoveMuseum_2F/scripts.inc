@@ -93,8 +93,19 @@ LilycoveCity_LilycoveMuseum_2F_Movement_FaceExhibitHall:
 
 LilycoveCity_LilycoveMuseum_2F_EventScript_Curator::
 	lockall
+	goto_if_unset FLAG_RECEIVED_MYSTIC_TICKET, LilycoveCity_LilycoveMuseum_2F_EventScript_GiveMysticTicket
 	goto_if_unset FLAG_RECEIVED_GLASS_ORNAMENT, LilycoveCity_LilycoveMuseum_2F_EventScript_CuratorRewards
-	goto_if_unset FLAG_RECEIVED_MYSTIC_TICKET, LilycoveCity_LilycoveMuseum_2F_EventScript_CuratorRewards
+	goto LilycoveCity_LilycoveMuseum_2F_EventScript_ReceivedGlassOrnament
+
+LilycoveCity_LilycoveMuseum_2F_EventScript_GiveMysticTicket::
+	goto_if_unset FLAG_BEAT_ALL_3RD_REMATCHES, LilycoveCity_LilycoveMuseum_2F_EventScript_CuratorRewards
+	msgbox LilycoveCity_LilycoveMuseum_2F_Text_SpecialTicket, MSGBOX_DEFAULT
+	checkitemspace ITEM_MYSTIC_TICKET
+	vgoto_if_eq VAR_RESULT, FALSE, LilycoveCity_LilycoveMuseum_2F_EventScript_MysticTicketBagFull
+	giveitem ITEM_MYSTIC_TICKET
+	setflag FLAG_RECEIVED_MYSTIC_TICKET
+	msgbox LilycoveCity_LilycoveMuseum_2F_Text_WitnessTrueLegends, MSGBOX_DEFAULT
+	goto_if_unset FLAG_RECEIVED_GLASS_ORNAMENT, LilycoveCity_LilycoveMuseum_2F_EventScript_CuratorRewards
 	goto LilycoveCity_LilycoveMuseum_2F_EventScript_ReceivedGlassOrnament
 
 LilycoveCity_LilycoveMuseum_2F_EventScript_CuratorRewards::
@@ -123,19 +134,12 @@ LilycoveCity_LilycoveMuseum_2F_EventScript_ThankPlayer::
 
 LilycoveCity_LilycoveMuseum_2F_EventScript_GiveGlassOrnament::
 	applymovement LOCALID_CURATOR, Common_Movement_FacePlayer
-	goto_if_set FLAG_RECEIVED_GLASS_ORNAMENT, LilycoveCity_LilycoveMuseum_2F_EventScript_GiveMysticTicket
+	goto_if_set FLAG_RECEIVED_GLASS_ORNAMENT, LilycoveCity_LilycoveMuseum_2F_EventScript_CuratorEnd
 	msgbox LilycoveCity_LilycoveMuseum_2F_Text_TokenOfGratitude, MSGBOX_DEFAULT
 	givedecoration DECOR_GLASS_ORNAMENT
 	goto_if_eq VAR_RESULT, FALSE, LilycoveCity_LilycoveMuseum_2F_EventScript_NoRoomForGlassOrnament
 	setflag FLAG_RECEIVED_GLASS_ORNAMENT
-LilycoveCity_LilycoveMuseum_2F_EventScript_GiveMysticTicket::
-	goto_if_set FLAG_RECEIVED_MYSTIC_TICKET, LilycoveCity_LilycoveMuseum_2F_EventScript_CuratorEnd
-	msgbox LilycoveCity_LilycoveMuseum_2F_Text_SpecialTicket, MSGBOX_DEFAULT
-	checkitemspace ITEM_MYSTIC_TICKET
-	vgoto_if_eq VAR_RESULT, FALSE, LilycoveCity_LilycoveMuseum_2F_EventScript_MysticTicketBagFull
-	giveitem ITEM_MYSTIC_TICKET
-	setflag FLAG_RECEIVED_MYSTIC_TICKET
-	msgbox LilycoveCity_LilycoveMuseum_2F_Text_WitnessTrueLegends, MSGBOX_DEFAULT
+
 LilycoveCity_LilycoveMuseum_2F_EventScript_CuratorEnd::
 	closemessage
 	releaseall
@@ -298,11 +302,6 @@ LilycoveCity_LilycoveMuseum_2F_Text_TokenOfGratitude:
 	.string "This is merely a token of my gratitude.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_SpecialTicket::
-	.string "But…\p"
-	.string "Your accomplishments in mastering\n"
-	.string "every category of the CONTESTS are so\l"
-	.string "remarkable, they demand something even\l"
-	.string "more extraordinary.\p"
 	.string "In recognition of your skill and\n"
 	.string "dedication, please accept this special\l"
 	.string "ticket…$"
