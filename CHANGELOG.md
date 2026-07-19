@@ -26,6 +26,7 @@
 7. Quadrupled shiny odds.
 8. All evolution stones now available at Slateport.
 9. Mewtwo can now be caught after completing all Gym Leader rematches.
+10. All pseudos now evolve at lvl 24 and 48.
 ## Battle
 1. HP Bars now drain faster.
 2. Return / Frustration now show their BP in summary screen.
