@@ -85,7 +85,7 @@ void UpdateGymLeaderRematch(void)
                 else if (trainerIdx == REMATCH_JUAN && !HasTrainerBeenFought(TRAINER_JUAN_3) && HasTrainerBeenFought(TRAINER_JUAN_2))
                     gSaveBlock1Ptr->trainerRematches[tableId] = 1;
             }
-            else if ((rematchIndex == 3) && FlagGet(FLAG_COLLECTED_ALL_SILVER_SYMBOLS)) // 4th fight
+            else if ((rematchIndex == 3) && FlagGet(FLAG_BEAT_ALL_3RD_REMATCHES)) // 4th fight
             {
                 if (trainerIdx == REMATCH_ROXANNE && !HasTrainerBeenFought(TRAINER_ROXANNE_4) && HasTrainerBeenFought(TRAINER_ROXANNE_3))
                     gSaveBlock1Ptr->trainerRematches[tableId] = 1;
