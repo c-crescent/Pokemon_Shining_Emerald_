@@ -28,6 +28,7 @@
 9. Mewtwo can now be caught after completing all Gym Leader rematches.
 10. All pseudos now evolve at lvl 24 and 48.
 11. Ho-oh and Lugia are no longer locked behind contests, but 3rd rematch clear instead.
+12. Eon Duo Roamer now only roams route 128, 129, and 130.
 ## Battle
 1. HP Bars now drain faster.
 2. Return / Frustration now show their BP in summary screen.
