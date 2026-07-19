@@ -10,6 +10,7 @@
 8. Odale Town Mart now sells Rare Candies & Master Balls. Rare Candies are now free.
 9. An Odale Town NPC will change the nature of your lead Pokemon and set its IVs to 31 for free.
 10. Coins can now be bought 1-to-1 with normal currency.
+11. Player can access Move Relearner from the party menu.
 ## Exploration
 1. All HMs can be used as long as the HM is in the bag without checking for Pokemon compatibility / learnset.
 2. Flash is automatically used upon entering a cave if the HM is available.

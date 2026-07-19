@@ -97,4 +97,5 @@ bool8 CanLearnTutorMove(u16, u8);
 u16 GetTMHMMoves(u16 position);
 #endif
 
+void CB2_ReturnToPartyMenuFromSummaryScreen(void);
 #endif // GUARD_PARTY_MENU_H
