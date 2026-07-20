@@ -41,6 +41,7 @@
 7. Black Glasses & Spell Tag are now sold at Mossdeep instead.
 8. Pokemon League now sells every non-Gym reward TM.
 9. Gym Leaders' 4th rematch is no longer locked behind Battle Frontier, only finishing the 3rd rematch.
+10. Pressing B in battle now moves the cursor to run.
 # Pokemon Changes
 ## General
 ## Type Changes
