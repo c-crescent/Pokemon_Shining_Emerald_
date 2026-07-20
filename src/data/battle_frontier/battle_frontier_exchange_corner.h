@@ -31,7 +31,6 @@ static const u16 sFrontierExchangeCorner_Vitamins[] =
     ITEM_ZINC,
     ITEM_CARBOS,
     ITEM_HP_UP,
-    ITEM_RARE_CANDY,
     ITEM_LIST_END
 };
 

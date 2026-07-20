@@ -794,7 +794,7 @@ static const u16 sPickupItems[] =
     ITEM_FULL_HEAL,
     ITEM_ULTRA_BALL,
     ITEM_HYPER_POTION,
-    ITEM_RARE_CANDY,
+    ITEM_MAX_POTION,
     ITEM_NUGGET,
     ITEM_PP_UP,
     ITEM_HP_UP,
@@ -818,7 +818,7 @@ static const u16 sRarePickupItems[] =
     ITEM_TM_ICE_BEAM,
     ITEM_TM_THUNDERBOLT,
     ITEM_TM_EARTHQUAKE,
-    ITEM_RARE_CANDY,
+    ITEM_MAX_ELIXIR,
 };
 
 static const u8 sPickupProbabilities[] =

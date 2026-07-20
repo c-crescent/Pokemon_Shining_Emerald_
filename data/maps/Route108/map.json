@@ -148,7 +148,7 @@
       "x": 38,
       "y": 14,
       "elevation": 3,
-      "item": "ITEM_RARE_CANDY",
+      "item": "ITEM_HP_UP",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_108_RARE_CANDY"
     }
   ]

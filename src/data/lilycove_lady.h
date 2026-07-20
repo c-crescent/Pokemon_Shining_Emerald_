@@ -282,9 +282,9 @@ static const u16 sQuizLadyPrizes[] =
     ITEM_TM_HYPER_BEAM,
     ITEM_BIG_PEARL,
     ITEM_STAR_PIECE,
-    ITEM_RARE_CANDY,
-    ITEM_RARE_CANDY,
-    ITEM_PREMIER_BALL
+    ITEM_THUNDER_STONE,
+    ITEM_WATER_STONE,
+    ITEM_FIRE_STONE
 };
 
 // Favor Lady data
@@ -426,7 +426,7 @@ static const u16 sFavorLadyPrizes[] =
     ITEM_NUGGET,
     ITEM_PROTEIN,
     ITEM_HEART_SCALE,
-    ITEM_RARE_CANDY,
+    ITEM_BRICK_PIECE,
     ITEM_PP_MAX
 };
 
