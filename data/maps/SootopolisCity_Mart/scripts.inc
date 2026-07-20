@@ -37,7 +37,8 @@ SootopolisCity_Mart_Pokemart:
 	.2byte ITEM_TM_STEEL_WING
 	.2byte ITEM_TM_DIG
 	.2byte ITEM_TM_THIEF
-	.2byte ITEM_TM_BULLET_SEED
+	.2byte ITEM_TM_BULLET_SEED	
+	.2byte ITEM_MYSTIC_WATER
 	.2byte ITEM_NONE
 	release
 	end

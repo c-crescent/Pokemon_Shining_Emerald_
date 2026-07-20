@@ -38,7 +38,8 @@ VerdanturfTown_Mart_Pokemart:
 	.2byte ITEM_ICE_HEAL
 	.2byte ITEM_SUPER_REPEL
 	.2byte ITEM_X_SPECIAL
-	.2byte ITEM_FLUFFY_TAIL
+	.2byte ITEM_FLUFFY_TAIL	
+	.2byte ITEM_MIRACLE_SEED
 	.2byte ITEM_NONE
 	release
 	end

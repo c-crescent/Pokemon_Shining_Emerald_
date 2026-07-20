@@ -35,7 +35,11 @@ MossdeepCity_Mart_Pokemart:
 	.2byte ITEM_FULL_HEAL
 	.2byte ITEM_REVIVE
 	.2byte ITEM_MAX_REPEL
-	.2byte ITEM_ETHER
+	.2byte ITEM_ETHER	
+	.2byte ITEM_TWISTED_SPOON
+	.2byte ITEM_NEVER_MELT_ICE	
+	.2byte ITEM_BLACK_GLASSES
+	.2byte ITEM_SPELL_TAG
 	.2byte ITEM_NONE
 	release
 	end

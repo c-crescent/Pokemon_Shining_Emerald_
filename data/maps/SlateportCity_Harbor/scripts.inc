@@ -372,6 +372,7 @@ SlateportCity_Harbor_Pokemart:
 	.2byte ITEM_MOON_STONE
 	.2byte ITEM_KINGS_ROCK
 	.2byte ITEM_BRICK_PIECE
+	.2byte ITEM_METAL_COAT
 	.2byte ITEM_NONE
 	release
 	end
