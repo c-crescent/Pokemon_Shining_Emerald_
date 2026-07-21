@@ -11,7 +11,8 @@
 9. An Odale Town NPC will change the nature of your lead Pokemon and set its IVs to 31 for free.
 10. Coins can now be bought 1-to-1 with normal currency.
 11. Player can access Move Relearner from the party menu.
-12. L Button Is Turbo A When L=A Option Is Set
+12. L Button Is Turbo A When L=A Option is set.
+12. R Button Is Turbo B When L=A Option is set.
 13. Trade Pokemon can now have their names changed by the Name Rater.
 ## Exploration
 1. All HMs can be used as long as the HM is in the bag without checking for Pokemon compatibility / learnset.

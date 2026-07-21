@@ -52,3 +52,4 @@ gText_Birch_YourePlayer::
 gText_Birch_AreYouReady::
 	.string "All right, are you ready?\p"
 	.string "$"
+

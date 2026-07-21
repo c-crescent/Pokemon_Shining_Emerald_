@@ -1608,4 +1608,5 @@ PetalburgCity_Gym_Text_NormanRematchCall:
 	.string "I'll be waiting for your challenge.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
+
 	
