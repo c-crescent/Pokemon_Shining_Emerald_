@@ -1972,7 +1972,13 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     u8 trainerName[(PLAYER_NAME_LENGTH * 3) + 1];
     u8 ability, gender, friendship;
     u8 minLvl;
-    u8 numBadges = FlagGet(NUM_BADGES);
+    u8 numBadges = 0;
+
+    for (i = FLAG_BADGE01_GET, numBadges = 0; i < FLAG_BADGE01_GET + NUM_BADGES; i++)
+        {
+            if (FlagGet(i))
+                numBadges++;
+        }
 
     if (trainerNum == TRAINER_SECRET_BASE)
         return 0;
@@ -1982,7 +1988,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     } else if (FlagGet(FLAG_IS_CHAMPION)) {
         minLvl = 50;
     } else {
-        minLvl = 5 + (numBadges * 5);
+        minLvl = 8 + (numBadges * 5);
     }
 
     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && !(gBattleTypeFlags & (BATTLE_TYPE_FRONTIER

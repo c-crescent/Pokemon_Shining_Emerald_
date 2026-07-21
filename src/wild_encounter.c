@@ -267,7 +267,14 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon)
     u8 max;
     u8 range;
     u8 rand;
-    u8 numBadges = FlagGet(NUM_BADGES);    
+    u32 i;
+    u8 numBadges = 0;
+    
+    for (i = FLAG_BADGE01_GET, numBadges = 0; i < FLAG_BADGE01_GET + NUM_BADGES; i++)
+        {
+            if (FlagGet(i))
+                numBadges++;
+        }
 
     if (FlagGet(FLAG_BEAT_ALL_3RD_REMATCHES)) {
         max = 58;
