@@ -4,6 +4,12 @@ OldaleTown_House1_MapScripts::
 OldaleTown_House1_EventScript_Woman::
 	lock
 	faceplayer
+	goto_if_set FLAG_ADVENTURE_STARTED, OldaleTown_House1_EventScript_NatureQuestion
+	msgbox OldaleTown_House1_Text_EarlyGame, MSGBOX_DEFAULT
+	release
+	end
+
+OldaleTown_House1_EventScript_NatureQuestion::
 	msgbox OldaleTown_House1_Text_NatureChange, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, OldaleTown_House1_CancelNatureChange
 	closemessage
@@ -218,11 +224,13 @@ OldaleTown_House1_CancelNatureChange::
 	release
 	end
 
+OldaleTown_House1_Text_EarlyGame:
+	.string "Are you just starting out?\p"
+	.string "That's very nice.$"
+
 OldaleTown_House1_Text_NatureChange:
 	.string "Would you like to change the nature\n"
-	.string "of your lead POKéMON?\p"
-	.string "This will also randomise its\n"
-	.string "personality and reset its name.$"
+	.string "and personality of your lead POKéMON?$"
 
 OldaleTown_House1_Text_NatureChangeSuccess:
 	.string "Your lead POKéMON changed\n"

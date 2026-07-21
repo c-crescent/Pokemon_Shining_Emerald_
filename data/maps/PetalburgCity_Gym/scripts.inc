@@ -1601,19 +1601,11 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 	.string "with at least two POKéMON.$"
 
 PetalburgCity_Gym_Text_NormanRematchCall:
-	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "NORMAN: Hello, {PLAYER}?\n"
 	.string "I heard that you've collected\l"
 	.string "all eight GYM BADGES.\p"
-	.string "That's an impressive feat, I\n"
-	.string "can't tell you how proud I am.\p"
-	.string "But, as a GYM LEADER, I won't\n"
-	.string "rest until I've tested how far\l"
-	.string "you've come.\p"
-	.string "Come by PETALBURG GYM anytime.\n"
 	.string "I'll be waiting for your challenge.\p"
-	.string "Let's see just how strong my child\n"
-	.string "has become.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
+	
