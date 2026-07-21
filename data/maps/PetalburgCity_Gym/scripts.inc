@@ -1579,7 +1579,7 @@ PetalburgCity_Gym_Text_GymStatueCertified:
 PetalburgCity_Gym_Text_NormanPreRematch:
 	.string "DAD: {PLAYER}…\n"
 	.string "I would never refuse to accept\n"
-	.string "a challenge from you.\p"$"
+	.string "a challenge from you.$"
 
 PetalburgCity_Gym_Text_NormanRematchDefeat:
 	.string "Uh… Haha…\n"
