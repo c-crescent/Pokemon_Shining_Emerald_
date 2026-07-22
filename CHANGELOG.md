@@ -3,7 +3,7 @@
 1. Significantly reduced the amount of unskippable text in the early game.
 2. The clock in the player's room now default to yes.
 3. Birch is available to save immediately after setting the clock.
-4. Removed Running Shoes. Player now always run.
+4. Removed Running Shoes. Player now always run, but you can hold B to make them walk.
 5. Girl is now the default gender option.
 6. Text now prints twice as fast.
 7. Text option is now fast by default. Sound option is now stereo by default.
