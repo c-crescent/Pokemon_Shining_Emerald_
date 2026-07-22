@@ -116,3 +116,5 @@ All of these values are compared to Emerald Legacy, not vanilla.
 3. All E4 members now have 6 Pokemon fully equipped with held items.
 ## Item
 1. Type-based held items now give a 20% boost instead of 10%.
+## Status
+1. Freeze now has a 33% chance to thaw instead of 20%.
