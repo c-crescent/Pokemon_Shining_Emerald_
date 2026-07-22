@@ -14,6 +14,7 @@
 12. L Button Is Turbo A When L=A Option is set.
 12. R Button Is Turbo B When L=A Option is set.
 13. Trade Pokemon can now have their names changed by the Name Rater.
+14. May is now always the rival.
 ## Exploration
 1. All HMs can be used as long as the HM is in the bag without checking for Pokemon compatibility / learnset.
 2. Flash is automatically used upon entering a cave if the HM is available.
