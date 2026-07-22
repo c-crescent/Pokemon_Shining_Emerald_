@@ -118,3 +118,4 @@ All of these values are compared to Emerald Legacy, not vanilla.
 1. Type-based held items now give a 20% boost instead of 10%.
 ## Status
 1. Freeze now has a 33% chance to thaw instead of 20%.
+2. Sleep now lasts 1-3 turns instead of 2-5 turns.
