@@ -24,7 +24,7 @@ PetalburgCity_PreNormanFight::
 	lockall
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, PetalburgCity_MayAppears
-	call_if_eq VAR_RESULT, FEMALE, PetalburgCity_BrendanAppears
+	call_if_eq VAR_RESULT, FEMALE, PetalburgCity_MayAppears
 PetalburgCity_MayAppears::
 	setobjectxyperm LOCALID_MAY, 16, 16
 	addobject LOCALID_MAY
@@ -49,7 +49,7 @@ PetalburgCity_OnWarp::
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_FaceRight
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, PetalburgCity_MayLeaves
-	call_if_eq VAR_RESULT, FEMALE, PetalburgCity_BrendanLeaves
+	call_if_eq VAR_RESULT, FEMALE, PetalburgCity_MayLeaves
 PetalburgCity_MayLeaves::
 	applymovement LOCALID_MAY, PetalburgCity_Movement_FaceLeft
 	msgbox PetalburgCity_Text_RivalWeMadeIt, MSGBOX_DEFAULT

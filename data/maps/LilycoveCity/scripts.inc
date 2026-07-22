@@ -234,7 +234,7 @@ LilycoveCity_EventScript_Rival::
 	faceplayer
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, LilycoveCity_EventScript_May
-	goto_if_eq VAR_RESULT, FEMALE, LilycoveCity_EventScript_Brendan
+	goto_if_eq VAR_RESULT, FEMALE, LilycoveCity_EventScript_May
 	end
 
 LilycoveCity_EventScript_May::

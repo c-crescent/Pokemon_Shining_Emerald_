@@ -76,7 +76,7 @@ SootopolisCity_OnTransition:
 
 SootopolisCity_EventScript_ShowRival::
 	checkplayergender
-	goto_if_eq VAR_RESULT, FEMALE, SootopolisCity_EventScript_ShowBrendan
+	goto_if_eq VAR_RESULT, FEMALE, SootopolisCity_EventScript_ShowMay
 	goto_if_eq VAR_RESULT, MALE, SootopolisCity_EventScript_ShowMay
 	return
 SootopolisCity_EventScript_ShowMay::
@@ -1432,7 +1432,7 @@ SootopolisCity_EventScript_MaxieArchieLeave::
 SootopolisCity_EventScript_RivalProfessor::
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, SootopolisCity_EventScript_MayProfessor
-	goto_if_eq VAR_RESULT, FEMALE, SootopolisCity_EventScript_BrendanProfessor
+	goto_if_eq VAR_RESULT, FEMALE, SootopolisCity_EventScript_MayProfessor
 	end
 
 SootopolisCity_EventScript_MayProfessor::

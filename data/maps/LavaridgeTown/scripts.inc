@@ -52,12 +52,12 @@ LavaridgeTown_EventScript_RivalGiveGoGoggles::
 	delay 20
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LavaridgeTown_EventScript_PlayMayMusic
-	call_if_eq VAR_RESULT, FEMALE, LavaridgeTown_EventScript_PlayBrendanMusic
+	call_if_eq VAR_RESULT, FEMALE, LavaridgeTown_EventScript_PlayMayMusic
 	call_if_eq VAR_0x8008, 9, LavaridgeTown_EventScript_RivalApproachPlayer1
 	call_if_ne VAR_0x8008, 9, LavaridgeTown_EventScript_RivalApproachPlayer2
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, LavaridgeTown_EventScript_MayGiveGoGoggles
-	goto_if_eq VAR_RESULT, FEMALE, LavaridgeTown_EventScript_BrendanGiveGoGoggles
+	goto_if_eq VAR_RESULT, FEMALE, LavaridgeTown_EventScript_MayGiveGoGoggles
 	end
 
 LavaridgeTown_EventScript_MayGiveGoGoggles::
@@ -89,7 +89,7 @@ LavaridgeTown_EventScript_TravelToPetalburg::
 	setflag FLAG_HIDE_PETALBURG_CITY_BRENDAN
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, PetalburgCity_LoadMay
-	call_if_eq VAR_RESULT, FEMALE, PetalburgCity_LeadBrendan
+	call_if_eq VAR_RESULT, FEMALE, PetalburgCity_LoadMay
 PetalburgCity_LoadMay::
 	clearflag FLAG_HIDE_PETALBURG_CITY_MAY
 	goto LavaridgeTown_EventScript_PetalburgWarp
@@ -120,7 +120,7 @@ LavaridgeTown_EventScript_RivalExit::
 	removeobject LOCALID_RIVAL_ON_BIKE
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, LavaridgeTown_EventScript_MayAppearInPokecenter
-	goto_if_eq VAR_RESULT, FEMALE, LavaridgeTown_EventScript_BrendanAppearInPokecenter
+	goto_if_eq VAR_RESULT, FEMALE, LavaridgeTown_EventScript_MayAppearInPokecenter
 LavaridgeTown_EventScript_MayAppearInPokecenter:
 	clearflag FLAG_HIDE_LAVARIDGE_POKEMON_CENTER_MAY
 	goto LavaridgeTown_EventScript_RivalExitEnd
